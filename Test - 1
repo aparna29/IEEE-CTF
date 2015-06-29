@@ -1,0 +1,24 @@
+Ques 1:
+As the question says:  You might have to deal with something related to "a landform that extends above the surrounding terrain".
+It's hill Cipher.
+Plain text written as matrix * key = cipher text
+Plain text = BLUE
+
+Ques 2:
+analyse the file using radare2.
+pressaa, then V and p.
+Head to sys.main().
+It takes 3 command line args.
+It takes the 3 numbers as co-efficients of a quadratic and gives output accordingly.
+Prints "You_have_found__an__answer._Find_the_logic_as_well" if delta==0
+Prints roots of the quadratic equation if delta>0.
+Prints "Try harder" if delta<0.
+
+Ques 3:
+analyse the file using radare2.
+press aa then V and p.
+Head to sys.main().
+main calls sys.func() with 10(mov edi,0xa).
+sys.func() is a recursive function to calculate factorial. it calculates factorial of 10 .
+The answer is divided by the input we give and if it equals 86400  output is 'Success'.
+Therefore,  (10!)/input = 86400. =>input = 42
