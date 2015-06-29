@@ -1,0 +1,21 @@
+Mission 4:
+Go to page source.In the value attribute of input tag change the mail address to your address. the password would be sent to your mail address.
+<input type="hidden" name="to" value="your mail address" />
+
+Mission 5:
+if we just change the mail address. it'll give error. so, we have to do  js injection.
+type javascript:alert(document.forms[0].to.value="your mail address")  in the address bar.
+it'll send the password to your mail address.
+
+Mission 6:
+when we enter any string we get the encrypted text. By using ASCII table we can find out that the encrypted text is formed by increasing the first character's ASCII by 0 , second character's ASCII by 1 so on...
+so in the given encrypted password decrease the ASCII of 2nd character by 1, 3rd by 2 and so on.
+
+Mission 7:
+in Enter the year you wish to view and hit 'view' enter ;ls
+cal.pl will open with the following details:
+cal.pl
+index.php
+k1kh31b1n55h.php
+level7.php
+in the address bar replace cal.pl by k1kh31b1n55h.php. it'll show the password
