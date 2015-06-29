@@ -1,0 +1,16 @@
+###### 1.
+import base64
+str=raw_input("enter")
+s=str.decode('hex')
+
+print "string in base64 is " + base64.b64encode(s)
+
+###### 2.
+str1=raw_input("enter")
+str2=raw_input("enter")
+str1 = str1.decode('hex')
+str2 = str2.decode('hex')
+a = xorstr(str1,str2)
+print a.encode('hex')
+
+
