@@ -1,0 +1,7 @@
+analyse the file using radare2.
+pressaa, then V and p.
+Head to sys.main().
+it takes command line rguement.
+this code divides 0x5c214f6c with 5 and the integer value of the answer is given as command line input to get the flag.
+The result is 309137378(0X126D0FE2).
+The output would be "your flag is a7b08c546302cc1fd2a4d48bf2bf2ddb".
